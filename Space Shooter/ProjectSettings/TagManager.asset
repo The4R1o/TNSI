@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - EnemyBullet
+  - PlayerBullet
+  - Enemy
+  - Bounds
+  - Red
+  - Blue
+  - Purple
+  - Yellow
+  - HealVFX
+  - Heal
+  - Meteor
+  - BossBullet
+  - BossBulletProjectile
+  - Bullet
+  - Ability
+  - TextPopup
+  - DeathVFX
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Enemy
+  - Player
+  - EnemyBullet
+  - PlayeBullet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3862252949
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 2904918287
+    locked: 0
+  - name: UI
+    uniqueID: 2934767611
+    locked: 0

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8599762150060920744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1216015401443537066}
+  - component: {fileID: 3215113305637766441}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1216015401443537066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8599762150060920744}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.018073082, y: -12.037035, z: -446.43112}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3215113305637766441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8599762150060920744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dffc39f82192ec046991278384658ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - soundName: Death
+    audioClip: {fileID: 8300000, guid: 5aae4b55edf3aae469a6dfcd88bbc1bf, type: 3}
+    audioVolume: 0.35
+  - soundName: Player Shoot
+    audioClip: {fileID: 8300000, guid: 1218f748a40680b498a89967eabb67f8, type: 3}
+    audioVolume: 0.08
+  - soundName: Shild
+    audioClip: {fileID: 8300000, guid: 79d74b5801b09ad40aee9fffad2be419, type: 3}
+    audioVolume: 0.3
+  - soundName: Red
+    audioClip: {fileID: 8300000, guid: 8770c183098ccc641900f087e0d470cf, type: 3}
+    audioVolume: 0.2
+  - soundName: Blue
+    audioClip: {fileID: 8300000, guid: a280b2d0c29d64b4fb7495d0fad4e4ea, type: 3}
+    audioVolume: 0.2
+  - soundName: Yellow
+    audioClip: {fileID: 8300000, guid: 048d17d4106a8c94c9c2ec915eb0ba8e, type: 3}
+    audioVolume: 0.2
+  - soundName: Purple
+    audioClip: {fileID: 8300000, guid: 741c47f6ae9a90e489e7841e143218e6, type: 3}
+    audioVolume: 0.2
+  - soundName: Heal
+    audioClip: {fileID: 8300000, guid: 0db156322b65ba6418f4c8a83bfd2cfb, type: 3}
+    audioVolume: 0.3
